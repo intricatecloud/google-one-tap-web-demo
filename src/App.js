@@ -16,8 +16,7 @@ function App() {
 
   const initializeGSI = () => {
     google.accounts.id.initialize({
-      // TODO - remove
-      client_id: '1006632388683-u8e68serndr8gfoukbgn6cddds94op5q.apps.googleusercontent.com',
+      client_id: 'insert-your-client-id-here',
       cancel_on_tap_outside: false,
       callback: onOneTapSignedIn
     });
@@ -48,7 +47,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        { isSignedIn ?
+        { isSignedIn && userInfo ?
           <div>
             Hello {userInfo.name} ({userInfo.email})
             <div className="g_id_signout" onClick={() => signout()}>Sign Out</div>
