@@ -5,7 +5,7 @@ Open src/App.js and insert the client ID where it says `insert-client-id-here` y
 
 Then `npm install`, and `npm start`
 
-Refer to this post here for the details of the demo. [TODO]
+Refer to this post here for the details of the demo. [Passwordless sign-in with Google One Tap Sign-In for Web](https://www.intricatecloud.io/2020/12/passwordless-sign-in-with-google-one-tap-for-web/)
 
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
